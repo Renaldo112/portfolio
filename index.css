@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body{
+    background-color:#151b29;
+}
+
+.cover{
+    height: 100vh;
+    
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#151b29;
+
+}
+
+
+button{
+    background: none;
+    color:white;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    animation: MoveUpDown .9s linear infinite ;
+    transition-duration: 1s;
+    
+    
+}
+
+
+button:hover{
+    border: 1px solid black;
+    box-shadow:12px 12px 2px  rgba(31, 95, 11, 0.199);
+
+}
+
+@keyframes MoveUpDown {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+}
