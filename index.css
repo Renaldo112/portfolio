@@ -9,7 +9,6 @@
 
 
 
-
 body{
     background-color:#151b29;
 }
@@ -51,4 +50,10 @@ button:hover{
     50%{
         transform: translateY(-6px);
     }
+}
+
+
+#about{ 
+color:white;
+
 }
