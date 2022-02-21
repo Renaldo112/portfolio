@@ -7,8 +7,6 @@
 
 
 
-
-
 body{
     background-color:#151b29;
 }
@@ -56,4 +54,10 @@ button:hover{
 #about{ 
 color:white;
 
+}
+@media (max-width:500px){
+    button{
+        box-shadow:12px 12px 2px  rgba(31, 95, 11, 0.199);
+
+    }
 }
