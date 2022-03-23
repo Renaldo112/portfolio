@@ -30,7 +30,7 @@ button{
     padding: 10px;
     animation: MoveUpDown .9s linear infinite ;
     transition-duration: 1s;
-    
+   
     
 }
 
@@ -83,7 +83,7 @@ header{
    align-items: center;
    margin-bottom: 73px;
 }
-span{
+.Initials{
     font-size: 1.3rem;
 }
 .M{
@@ -129,7 +129,12 @@ margin-bottom: 32px;
 
     
 }
-.line-connector1{
+
+.Frontend_Dev {
+
+    color: rgb(231, 106, 106);
+}
+.vertical_line1{
     
     margin: auto;
     width: 0;
@@ -139,11 +144,11 @@ margin-bottom: 32px;
 
 .skills{
     
-   
-    padding: 20px 0 15px 0;
+   padding: 20px 0 15px 0;
     margin-bottom: 33px;
 }
 .skills ul {
+    
     color: rgb(238, 234, 234);
     display: flex;
     list-style: none;
@@ -153,11 +158,13 @@ margin-bottom: 32px;
 }
 
 .skills ul li{
-    padding: 17px;
+    
+    padding: 15px;
     border: 1px solid rgba(63, 75, 37, 0.945);
-    margin: 20px;
+    margin: 0 19px 0 19px;
     border-radius: 4px;
-   
+    margin: 20px;
+    
 }
 
 
@@ -173,7 +180,7 @@ h2{
 }
 
 .savannah-Dinning-Img{
-
+    animation: MoveUpDown .9s linear infinite ;
     box-shadow:12px 12px 2px  rgba(220, 228, 217, 0.199);
     width:100%;
     margin-bottom: 34px;
@@ -182,6 +189,7 @@ h2{
    
     display: flex;
     justify-content: space-evenly;
+    margin-bottom:55px ;
 }
 .first-img-cover{
     display: flex;
@@ -203,6 +211,14 @@ h2{
     height: 12px;
 
 }
+.vertical_line2{
+
+
+margin: auto;
+width: 0;
+border: 1px dotted rgba(255, 255, 255, 0.267);
+height: 130px;
+}
 
 h3{
     margin: auto;
@@ -214,3 +230,4 @@ h3{
     box-shadow:12px 12px 2px  rgba(31, 95, 11, 0.199);
     text-align: center;
 }
+
