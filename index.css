@@ -93,12 +93,16 @@ header{
    padding:0 12px 0 12px;
    align-items: center;
    margin-bottom: 73px;
+
 }
 .Initials{
     font-size: 1.3rem;
 }
 .M{
+
     color: rgb(231, 106, 106);
+
+
 }
 
 nav ol {
@@ -118,6 +122,7 @@ a{
 
 
 h1{
+
     position: relative;
     width: 45%;
     text-align: center;
@@ -129,6 +134,7 @@ h1{
     margin-bottom: 84px;
     animation-name:slidein;
     animation-duration:2s ;
+
 
 }
 
@@ -145,22 +151,35 @@ h1{
 }
 
 .bio{
+
+
     width: 70%;
     color:rgb(255, 255, 255);
     padding: 25px;
     text-align: center;
+
     box-shadow:12px 12px 2px  rgba(220, 228, 217, 0);
 margin: auto;
 margin-bottom: 32px;
 
+
     
 }
+
 
 .Frontend_Dev {
 
     color: rgb(231, 106, 106);
 }
+
 .vertical_line1{
+
+    margin: auto;
+    width: 0;
+    border: 1px dotted rgba(255, 255, 255, 0.267);
+    height: 130px;
+
+}
     
     margin: auto;
     width: 0;
@@ -173,6 +192,10 @@ margin-bottom: 32px;
    padding: 20px 0 15px 0;
     margin-bottom: 33px;
 }
+
+
+  
+
 .skills ul {
     
     color: rgb(238, 234, 234);
@@ -190,7 +213,7 @@ margin-bottom: 32px;
     margin: 0 19px 0 19px;
     border-radius: 4px;
     margin: 20px;
-    
+  
 }
 .skills ul li:hover{
 background-color:  rgb(231, 106, 106);;
@@ -251,6 +274,7 @@ height: 130px;
 margin-bottom: 32px;
 }
 
+
 h3{
     margin: auto;
     padding: 5px;
@@ -261,6 +285,7 @@ h3{
     box-shadow:12px 12px 2px  rgba(31, 95, 11, 0.199);
     text-align: center;
 }
+
 
 .point_emoji{
     position: absolute;
@@ -275,3 +300,4 @@ h3{
 .point_emoji:hover{
     transform: rotate(360deg);
 }
+
