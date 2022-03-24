@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     
     font-size: 92.5%;
@@ -50,6 +54,12 @@ button:hover{
     50%{
         transform: translateY(-6px);
         
+    }
+}
+
+@media (max-width:1221px){
+    .point_emoji{
+        display: none;
     }
 }
 
