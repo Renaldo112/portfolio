@@ -276,17 +276,17 @@ h3{
    display: flex;
    align-items: center;
    flex-direction: column;
-    background-color: rgba(24, 23, 23, 0);
+    
 }
 
 .PassOver{
-    box-shadow:12px 12px 6px  rgba(220, 228, 217, 0.329);
+    box-shadow:22px 23px 12px  rgba(19, 18, 18, 0.466);
     width: 100%;
+    
 }
 .img{
-  
-    width: 50%;
 
+    width: 40%;
     
 }
 
@@ -304,7 +304,7 @@ h3{
 
 
     .img{
-        width: 100%;
+        width: 80%;
     }
 }
 
