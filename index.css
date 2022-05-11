@@ -114,9 +114,11 @@ header {
 
 }
 
+
 .M {
 
     color: rgb(231, 106, 106);
+
 
 }
 
@@ -154,6 +156,7 @@ h1 {
     animation-name:slidein;
     animation-duration:2s ;
 
+
 }
 
 
@@ -175,7 +178,6 @@ h1 {
     text-align: center;
     margin: auto;
     margin-bottom: 32px;
-
     
 }
 
@@ -185,6 +187,7 @@ h1 {
 
 }
 
+
 .vertical_line1 {
 
     width: 0;
@@ -193,6 +196,8 @@ h1 {
     height: 130px;
 
 }
+    
+    
 
 .skills {
     
@@ -200,6 +205,10 @@ h1 {
     margin-bottom: 33px;
 
 }
+
+
+  
+
 .skills ul {
     
     color: rgb(238, 234, 234);
@@ -217,7 +226,7 @@ h1 {
     margin: 0 19px 0 19px;
     border-radius: 4px;
     margin: 20px;
-    
+  
 }
 .skills ul li:hover {
 
@@ -256,7 +265,8 @@ h2 {
     margin-bottom: 34px;
 
 }
-.firstrow {
+
+.projects-container{
 
     display: flex;
     margin-bottom:55px ;
@@ -287,6 +297,7 @@ h2 {
 }
 
 
+
 h3{
     margin: auto;
     padding: 5px;
@@ -303,6 +314,7 @@ h3{
     
     width: 35%;
     
+
 }
 
 .PassOver-img{
@@ -361,4 +373,5 @@ h3{
         display: none;
     }
 }
+
 
