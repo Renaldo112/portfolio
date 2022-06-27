@@ -230,7 +230,7 @@ h2 {
 .savannah-Dining-Img {
 
     box-shadow:12px 12px 2px  rgba(220, 228, 217, 0.199);
-    margin-bottom: 34px;
+    
 
 }
 .projects-container{
@@ -249,19 +249,6 @@ h2 {
     width: 80%;
 }
     
-
-.coming_soon{
-    color: rgb(245, 241, 241);
-    border: 1px solid rgba(200, 199, 202, 0.685);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    height: 20px;
-    text-align: center;
-    
-
-}
 
 
 h3{
@@ -371,7 +358,7 @@ h3{
 
     .PassOver-img-container{
         
-        width: 50%;
+        width: 53%;
      
     }
 
